@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		939C229257EE1998E281D4FD /* Pods_PubNub_Tutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C0C4A090ACA915A6244833B /* Pods_PubNub_Tutorial.framework */; };
+		A2BBEB0B21FF9B9900D772E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BBEB0A21FF9B9900D772E7 /* AppDelegate.swift */; };
+		A2BBEB0D21FF9B9900D772E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BBEB0C21FF9B9900D772E7 /* ViewController.swift */; };
+		A2BBEB1021FF9B9900D772E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2BBEB0E21FF9B9900D772E7 /* Main.storyboard */; };
+		A2BBEB1221FF9B9A00D772E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2BBEB1121FF9B9A00D772E7 /* Assets.xcassets */; };
+		A2BBEB1521FF9B9A00D772E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2BBEB1321FF9B9A00D772E7 /* LaunchScreen.storyboard */; };
+		A2BBEB2021FF9B9A00D772E7 /* PubNub_TutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BBEB1F21FF9B9A00D772E7 /* PubNub_TutorialTests.swift */; };
+		A2BBEB2B21FF9B9A00D772E7 /* PubNub_TutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BBEB2A21FF9B9A00D772E7 /* PubNub_TutorialUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2BBEB1C21FF9B9A00D772E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2BBEAFF21FF9B9900D772E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2BBEB0621FF9B9900D772E7;
+			remoteInfo = "PubNub Tutorial";
+		};
+		A2BBEB2721FF9B9A00D772E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2BBEAFF21FF9B9900D772E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2BBEB0621FF9B9900D772E7;
+			remoteInfo = "PubNub Tutorial";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DC032D0A01B57AE4334371A /* Pods-PubNub Tutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PubNub Tutorial.release.xcconfig"; path = "Pods/Target Support Files/Pods-PubNub Tutorial/Pods-PubNub Tutorial.release.xcconfig"; sourceTree = "<group>"; };
+		9C0C4A090ACA915A6244833B /* Pods_PubNub_Tutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PubNub_Tutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2BBEB0721FF9B9900D772E7 /* PubNub Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PubNub Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2BBEB0A21FF9B9900D772E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2BBEB0C21FF9B9900D772E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2BBEB0F21FF9B9900D772E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2BBEB1121FF9B9A00D772E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2BBEB1421FF9B9A00D772E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2BBEB1621FF9B9A00D772E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2BBEB1B21FF9B9A00D772E7 /* PubNub TutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PubNub TutorialTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2BBEB1F21FF9B9A00D772E7 /* PubNub_TutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PubNub_TutorialTests.swift; sourceTree = "<group>"; };
+		A2BBEB2121FF9B9A00D772E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2BBEB2621FF9B9A00D772E7 /* PubNub TutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PubNub TutorialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2BBEB2A21FF9B9A00D772E7 /* PubNub_TutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PubNub_TutorialUITests.swift; sourceTree = "<group>"; };
+		A2BBEB2C21FF9B9A00D772E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E38515C510510BE49C4E86E7 /* Pods-PubNub Tutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PubNub Tutorial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PubNub Tutorial/Pods-PubNub Tutorial.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2BBEB0421FF9B9900D772E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939C229257EE1998E281D4FD /* Pods_PubNub_Tutorial.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2BBEB1821FF9B9A00D772E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2BBEB2321FF9B9A00D772E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FF65BAC14E419093DB38059 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C0C4A090ACA915A6244833B /* Pods_PubNub_Tutorial.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2BBEAFE21FF9B9900D772E7 = {
+			isa = PBXGroup;
+			children = (
+				A2BBEB0921FF9B9900D772E7 /* PubNub Tutorial */,
+				A2BBEB1E21FF9B9A00D772E7 /* PubNub TutorialTests */,
+				A2BBEB2921FF9B9A00D772E7 /* PubNub TutorialUITests */,
+				A2BBEB0821FF9B9900D772E7 /* Products */,
+				F2B8477AB8182370148DCF44 /* Pods */,
+				8FF65BAC14E419093DB38059 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A2BBEB0821FF9B9900D772E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2BBEB0721FF9B9900D772E7 /* PubNub Tutorial.app */,
+				A2BBEB1B21FF9B9A00D772E7 /* PubNub TutorialTests.xctest */,
+				A2BBEB2621FF9B9A00D772E7 /* PubNub TutorialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2BBEB0921FF9B9900D772E7 /* PubNub Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				A2BBEB0A21FF9B9900D772E7 /* AppDelegate.swift */,
+				A2BBEB0C21FF9B9900D772E7 /* ViewController.swift */,
+				A2BBEB0E21FF9B9900D772E7 /* Main.storyboard */,
+				A2BBEB1121FF9B9A00D772E7 /* Assets.xcassets */,
+				A2BBEB1321FF9B9A00D772E7 /* LaunchScreen.storyboard */,
+				A2BBEB1621FF9B9A00D772E7 /* Info.plist */,
+			);
+			path = "PubNub Tutorial";
+			sourceTree = "<group>";
+		};
+		A2BBEB1E21FF9B9A00D772E7 /* PubNub TutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2BBEB1F21FF9B9A00D772E7 /* PubNub_TutorialTests.swift */,
+				A2BBEB2121FF9B9A00D772E7 /* Info.plist */,
+			);
+			path = "PubNub TutorialTests";
+			sourceTree = "<group>";
+		};
+		A2BBEB2921FF9B9A00D772E7 /* PubNub TutorialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2BBEB2A21FF9B9A00D772E7 /* PubNub_TutorialUITests.swift */,
+				A2BBEB2C21FF9B9A00D772E7 /* Info.plist */,
+			);
+			path = "PubNub TutorialUITests";
+			sourceTree = "<group>";
+		};
+		F2B8477AB8182370148DCF44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E38515C510510BE49C4E86E7 /* Pods-PubNub Tutorial.debug.xcconfig */,
+				4DC032D0A01B57AE4334371A /* Pods-PubNub Tutorial.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2BBEB0621FF9B9900D772E7 /* PubNub Tutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2BBEB2F21FF9B9A00D772E7 /* Build configuration list for PBXNativeTarget "PubNub Tutorial" */;
+			buildPhases = (
+				26EA5A9563DE5F12B73D0F07 /* [CP] Check Pods Manifest.lock */,
+				A2BBEB0321FF9B9900D772E7 /* Sources */,
+				A2BBEB0421FF9B9900D772E7 /* Frameworks */,
+				A2BBEB0521FF9B9900D772E7 /* Resources */,
+				D52DF7E76C8AF1354AFB3CD0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PubNub Tutorial";
+			productName = "PubNub Tutorial";
+			productReference = A2BBEB0721FF9B9900D772E7 /* PubNub Tutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2BBEB1A21FF9B9A00D772E7 /* PubNub TutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2BBEB3221FF9B9A00D772E7 /* Build configuration list for PBXNativeTarget "PubNub TutorialTests" */;
+			buildPhases = (
+				A2BBEB1721FF9B9A00D772E7 /* Sources */,
+				A2BBEB1821FF9B9A00D772E7 /* Frameworks */,
+				A2BBEB1921FF9B9A00D772E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2BBEB1D21FF9B9A00D772E7 /* PBXTargetDependency */,
+			);
+			name = "PubNub TutorialTests";
+			productName = "PubNub TutorialTests";
+			productReference = A2BBEB1B21FF9B9A00D772E7 /* PubNub TutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2BBEB2521FF9B9A00D772E7 /* PubNub TutorialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2BBEB3521FF9B9A00D772E7 /* Build configuration list for PBXNativeTarget "PubNub TutorialUITests" */;
+			buildPhases = (
+				A2BBEB2221FF9B9A00D772E7 /* Sources */,
+				A2BBEB2321FF9B9A00D772E7 /* Frameworks */,
+				A2BBEB2421FF9B9A00D772E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2BBEB2821FF9B9A00D772E7 /* PBXTargetDependency */,
+			);
+			name = "PubNub TutorialUITests";
+			productName = "PubNub TutorialUITests";
+			productReference = A2BBEB2621FF9B9A00D772E7 /* PubNub TutorialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2BBEAFF21FF9B9900D772E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Samba Diallo";
+				TargetAttributes = {
+					A2BBEB0621FF9B9900D772E7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					A2BBEB1A21FF9B9A00D772E7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A2BBEB0621FF9B9900D772E7;
+					};
+					A2BBEB2521FF9B9A00D772E7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A2BBEB0621FF9B9900D772E7;
+					};
+				};
+			};
+			buildConfigurationList = A2BBEB0221FF9B9900D772E7 /* Build configuration list for PBXProject "PubNub Tutorial" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2BBEAFE21FF9B9900D772E7;
+			productRefGroup = A2BBEB0821FF9B9900D772E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2BBEB0621FF9B9900D772E7 /* PubNub Tutorial */,
+				A2BBEB1A21FF9B9A00D772E7 /* PubNub TutorialTests */,
+				A2BBEB2521FF9B9A00D772E7 /* PubNub TutorialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2BBEB0521FF9B9900D772E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2BBEB1521FF9B9A00D772E7 /* LaunchScreen.storyboard in Resources */,
+				A2BBEB1221FF9B9A00D772E7 /* Assets.xcassets in Resources */,
+				A2BBEB1021FF9B9900D772E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2BBEB1921FF9B9A00D772E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2BBEB2421FF9B9A00D772E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26EA5A9563DE5F12B73D0F07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PubNub Tutorial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D52DF7E76C8AF1354AFB3CD0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PubNub Tutorial/Pods-PubNub Tutorial-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PubNub/PubNub.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PubNub.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PubNub Tutorial/Pods-PubNub Tutorial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2BBEB0321FF9B9900D772E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2BBEB0D21FF9B9900D772E7 /* ViewController.swift in Sources */,
+				A2BBEB0B21FF9B9900D772E7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2BBEB1721FF9B9A00D772E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2BBEB2021FF9B9A00D772E7 /* PubNub_TutorialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2BBEB2221FF9B9A00D772E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2BBEB2B21FF9B9A00D772E7 /* PubNub_TutorialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2BBEB1D21FF9B9A00D772E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2BBEB0621FF9B9900D772E7 /* PubNub Tutorial */;
+			targetProxy = A2BBEB1C21FF9B9A00D772E7 /* PBXContainerItemProxy */;
+		};
+		A2BBEB2821FF9B9A00D772E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2BBEB0621FF9B9900D772E7 /* PubNub Tutorial */;
+			targetProxy = A2BBEB2721FF9B9A00D772E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2BBEB0E21FF9B9900D772E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2BBEB0F21FF9B9900D772E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2BBEB1321FF9B9A00D772E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2BBEB1421FF9B9A00D772E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2BBEB2D21FF9B9A00D772E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2BBEB2E21FF9B9A00D772E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2BBEB3021FF9B9A00D772E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E38515C510510BE49C4E86E7 /* Pods-PubNub Tutorial.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PubNub Tutorial/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "samba.PubNub-Tutorial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2BBEB3121FF9B9A00D772E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DC032D0A01B57AE4334371A /* Pods-PubNub Tutorial.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PubNub Tutorial/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "samba.PubNub-Tutorial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A2BBEB3321FF9B9A00D772E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PubNub TutorialTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "samba.PubNub-TutorialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PubNub Tutorial.app/PubNub Tutorial";
+			};
+			name = Debug;
+		};
+		A2BBEB3421FF9B9A00D772E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PubNub TutorialTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "samba.PubNub-TutorialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PubNub Tutorial.app/PubNub Tutorial";
+			};
+			name = Release;
+		};
+		A2BBEB3621FF9B9A00D772E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PubNub TutorialUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "samba.PubNub-TutorialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PubNub Tutorial";
+			};
+			name = Debug;
+		};
+		A2BBEB3721FF9B9A00D772E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PubNub TutorialUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "samba.PubNub-TutorialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PubNub Tutorial";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2BBEB0221FF9B9900D772E7 /* Build configuration list for PBXProject "PubNub Tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2BBEB2D21FF9B9A00D772E7 /* Debug */,
+				A2BBEB2E21FF9B9A00D772E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2BBEB2F21FF9B9A00D772E7 /* Build configuration list for PBXNativeTarget "PubNub Tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2BBEB3021FF9B9A00D772E7 /* Debug */,
+				A2BBEB3121FF9B9A00D772E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2BBEB3221FF9B9A00D772E7 /* Build configuration list for PBXNativeTarget "PubNub TutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2BBEB3321FF9B9A00D772E7 /* Debug */,
+				A2BBEB3421FF9B9A00D772E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2BBEB3521FF9B9A00D772E7 /* Build configuration list for PBXNativeTarget "PubNub TutorialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2BBEB3621FF9B9A00D772E7 /* Debug */,
+				A2BBEB3721FF9B9A00D772E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2BBEAFF21FF9B9900D772E7 /* Project object */;
+}
